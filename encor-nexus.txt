@@ -87,7 +87,7 @@ interface ___ _                          !try to complete the nve commands
   source__________ ________ _
   m_____ v__ _____
    i________________ p_______ s_____
-     ____-__ __.__.__.__
+     ____-__ __.__.__.__			!peer on to other side
 	 exit
 
 
@@ -96,7 +96,7 @@ interface ___ _                          !try to complete the nve commands
 
 
 
-BACK TO DEFAULT IOS IN THIS PART FOR TESTING:
+BACK TO ORIGINAL IOS IN THIS PART FOR TESTING:
 
 !for Routers in the offices
 @R1 (JP)
@@ -116,7 +116,7 @@ no shut
 ip add 50.0.0.3 255.0.0.0
 end
 
-!test from R1 to R3 (or vice-versa
+!test from R1 to R3 (or vice-versa)
 ping 50.0.0.1/3
 
 !If it pings... IT WORKS :)
